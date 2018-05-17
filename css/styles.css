@@ -1,0 +1,37 @@
+body{
+    color:#6d737d; 
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}  
+
+a{
+    text-decoration: none;
+}  
+
+/* ====================================================
+    HEADER
+=======================================================*/
+header{
+    /*background: url('../img/home.jpg') no-repeat;*/
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.75), 
+        rgba(0, 0, 0, 0.75)
+        ), url('../img/home.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color:#fff;  
+} 
+
+.bg {
+    background-color: none!important;
+}
+
+.logo{
+    font-weight: bold;
+    color: #fff;
+} 
+
+.logo span{
+    color:#28bbea; 
+} 
