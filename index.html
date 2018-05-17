@@ -17,7 +17,7 @@
         <div class="container-fluid"> <!-- MENU PRINCIPAL -->
             <div class="container">
                 <div class="row">
-                    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg">
+                    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-transparent">
                         <a class="navbar-brand" href="#"><h1 class="logo">Orga<span>nic.</span></h1></a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -47,7 +47,7 @@
                     </nav>
                 </div> 
             </div> <!--fin menu principal-->
-            <section class="container text_intro text-center;">
+            <section class="container text_intro text-center">
                 <div class="row">
                     <div class="col-md-12">
                         <h2>Best for your business</h2>
@@ -87,7 +87,7 @@
             <section class="row mt-5 mb-5">
                 <div class="col-sm">
                     <article class="box_info mb-5">
-                        <i class="fas fa-magic"></i>
+                        <i class="fas fa-magic icon"></i>
                         <h3 class="p-1">Clean & Modern</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sapiente expedita tempora asperiores. 
                             Natus magnam repellat nobis, possimus corporis voluptates.
@@ -96,7 +96,7 @@
                 </div> 
                 <div class="col-sm">   
                     <article class="box_info mb-5">
-                        <i class="fas fa-eye"></i>
+                        <i class="fas fa-eye icon"></i>
                         <h3 class="p-1">Unique design</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sapiente expedita tempora asperiores. 
                                 Natus magnam repellat nobis, possimus corporis voluptates.
@@ -105,7 +105,7 @@
                 </div>  
                 <div class="col-sm">  
                     <article class="box_info mb-5">
-                        <i class="fas fa-cogs"></i>
+                        <i class="fas fa-cogs icon"></i>
                         <h3 class="p-1">100% responsive</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sapiente expedita tempora asperiores. 
                                 Natus magnam repellat nobis, possimus corporis voluptates.
@@ -117,7 +117,7 @@
             <section class="row mt-5 mb-5">
                 <div class="col-sm">
                     <article class="box_info mb-5">
-                        <i class="fas fa-lock"></i>
+                        <i class="fas fa-lock icon"></i>
                         <h3 class="p-1">Computer security</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sapiente expedita tempora asperiores. 
                             Natus magnam repellat nobis, possimus corporis voluptates.
@@ -125,8 +125,8 @@
                     </article>
                 </div>
                 <div class="col-sm">    
-                    <article class="box_info mb-5">
-                        <i class="fas fa-book"></i>
+                    <article class="box_info mb-5 bg-white">
+                        <i class="fas fa-book icon"></i>
                         <h3 class="p-1">Tax planing</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sapiente expedita tempora asperiores. 
                                 Natus magnam repellat nobis, possimus corporis voluptates.
@@ -134,8 +134,8 @@
                     </article>
                 </div>
                 <div class="col-sm">  
-                    <article class="box_info mb-5">
-                        <i class="fas fa-globe"></i>   
+                    <article class="box_info mb-5 bg-white">
+                        <i class="fas fa-globe icon"></i>   
                         <h3 class="p-1">Software and development</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sapiente expedita tempora asperiores. 
                                 Natus magnam repellat nobis, possimus corporis voluptates.
@@ -145,9 +145,9 @@
             </section>
         </div>
 
-        <section class="info_counter">
+        <section class="info_counter"> <!-- COMPTEUR -->
             <div class="container">
-                <div class="row">
+                <div class="row justify-content-center">
                     <div class="col-sm">
                         <div class="counter">
                             <h3>1840<br/>
@@ -174,9 +174,9 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> <!-- FIN COMPTEUR -->
 
-        <section class="container-fluid">
+        <section class="container-fluid"> <!-- PORTFOLIO -->
             <div class="container mt-5 mb-5 text_content">
                 <div class="row">
                     <div class="col-sm-12 col-md-12">
@@ -191,19 +191,27 @@
         </section>
 
         <section class="container filter_portfolio">
-            <div class="row p-5 mt-5 mb-5 text_content">
+            <div class="row p-2 mt-3 mb-3 text_content justify-content-center">
                 <ul class="nav">
-                    <li class="nav-item col-md-4">
-                    <a class="nav-link active" href="#">All</a>
+                    <li class="nav-item col-md-3">
+                        <button type="button" class="btn btn-dark">
+                            All
+                        </button>    
                     </li>
-                    <li class="nav-item col-md-4">
-                    <a class="nav-link" href="#">Web design</a>
+                    <li class="nav-item col-md-3">
+                        <button type="button" class="btn btn-outline-dark">
+                           Web design
+                        </button>    
                     </li>
-                    <li class="nav-item col-md-4">
-                    <a class="nav-link" href="#">Branding</a>
+                    <li class="nav-item col-md-3">
+                        <button type="button" class="btn btn-outline-dark">
+                            Branding
+                        </button>    
                     </li>
-                    <li class="nav-item col-md-4">
-                    <a class="nav-link disabled" href="#">Graphic</a>
+                    <li class="nav-item col-md-3">
+                        <button type="button" class="btn btn-outline-dark">   
+                            Graphic
+                        </button>    
                     </li>
                 </ul>
             </div>
@@ -235,9 +243,9 @@
                         <img src="img/portfolio6.jpg" class="p-2" />
                 </article>
             </div>    
-        </section> 
+        </section> <!-- FIN PORTFOLIO -->
 
-        <section class="container-fluid">
+        <section class="container-fluid"> <!-- PRICING / TARIF -->
             <div class="container mt-5 mb-5 text_content">
                 <div class="row">
                     <div class="col-sm-12 col-md-12">
@@ -251,59 +259,132 @@
             </div>
         </section>
 
-        <section class="sold_price container">
-            <div class="row">
-                <article class="col-md-4 col-sm-4">
+        <section class="sold_price container-fluid">
+            <div class="row justify-content-center mb-5">
+                <article class="col-md-3 col-sm-12 m-2">
                     <h2 class="title_price p-2 mb-2">Basic</h2>
-                    <div class="pricing">
-                        <h3>$ 95</h3>
+                    <div class="pricing mt-5">
+                        <h3 class="mt-5">$ 95</h3>
                         <p>1 month</p>
                     </div>
-                    <ul>
-                        <li>1TB disk space</li>
-                        <li>10 limite Project</li>
-                        <li>Responsive page</li>
-                        <li>Free hosting</li>
-                        <li>24/7 support</li>
+                    <ul class="list-group mt-5 mb-5">
+                        <li class="list-group-item list-group-item-light bg-transparent border-0">1TB disk space</li>
+                        <li class="list-group-item list-group-item-light bg-transparent border-0">10 limite Project</li>
+                        <li class="list-group-item list-group-item-light bg-transparent border-0">Responsive page</li>
+                        <li class="list-group-item list-group-item-light bg-transparent border-0">Free hosting</li>
+                        <li class="list-group-item list-group-item-light bg-transparent border-0">24/7 support</li>
                     </ul>
-                    <button>Select Plan</button>
+                    <button class="btn btn-dark mb-5">Select Plan</button>
                 </article>
-                <article class="col-md-4 col-sm-4" >
+                <article class="col-md-3 col-sm-12 m-2" >
                     <h2 class="title_price p-2 mb-2">Populaire</h2>
-                    <div class="pricing">
-                        <h3>$ 295</h3>
+                    <div class="pricing mt-5">
+                        <h3 class="mt-5">$ 295</h3>
                         <p>6 month</p>
                     </div>
-                    <ul>
-                        <li>1TB disk space</li>
-                        <li>10 limite Project</li>
-                        <li>Responsive page</li>
-                        <li>Free hosting</li>
-                        <li>24/7 support</li>
+                    <ul class="list-group mt-5 mb-5">
+                        <li class="list-group-item list-group-item-light bg-transparent border-0">1TB disk space</li>
+                        <li class="list-group-item list-group-item-light bg-transparent border-0">10 limite Project</li>
+                        <li class="list-group-item list-group-item-light bg-transparent border-0">Responsive page</li>
+                        <li class="list-group-item list-group-item-light bg-transparent border-0">Free hosting</li>
+                        <li class="list-group-item list-group-item-light bg-transparent border-0">24/7 support</li>
                     </ul>
-                    <button>Select Plan</button>
+                    <button class="btn btn-dark mb-5">Select Plan</button>
                 </article>
     
-                <article class="col-md-4 col-sm-4">
+                <article class="col-md-3 col-sm-12 m-2">
                     <h2 class="title_price p-2 mb-2">Premium</h2>
-                    <div class="pricing">
-                        <h3>$ 395</h3>
+                    <div class="pricing mt-5">
+                        <h3 class="mt-5">$ 395</h3>
                         <p>1 year</p>
                     </div>
-                    <ul>
-                        <li>1TB disk space</li>
-                        <li>10 limite Project</li>
-                        <li>Responsive page</li>
-                        <li>Free hosting</li>
-                        <li>24/7 support</li>
+                    <ul class="list-group mt-5 mb-5">
+                        <li class="list-group-item list-group-item-light bg-transparent border-0">1TB disk space</li>
+                        <li class="list-group-item list-group-item-light bg-transparent border-0">10 limite Project</li>
+                        <li class="list-group-item list-group-item-light bg-transparent border-0">Responsive page</li>
+                        <li class="list-group-item list-group-item-light bg-transparent border-0">Free hosting</li>
+                        <li class="list-group-item list-group-item-light bg-transparent border-0">24/7 support</li>
                     </ul>
-                    <button>Select Plan</button>
+                    <button class="btn btn-dark mb-5">Select Plan</button>
                 </article>
+            </div>
+        </section> <!-- FIN PRICING / TARIF -->
+
+        <section class="container-fluid client_list p-5"> <!-- CLIENT -->
+            <div class="row text-center">
+                <article class="col-sm-12 col-md-2 p-1"> 
+                    <img src="img/client1.png" />
+                </article>
+                <article class="col-sm-12 col-md-2 p-1"> 
+                    <img src="img/client2.png" />
+                </article>
+                <article class="col-sm-12 col-md-2 p-1"> 
+                    <img src="img/client3.png" />
+                </article>
+                <article class="col-sm-12 col-md-2 p-1"> 
+                    <img src="img/client4.png" />
+                </article>
+                <article class="col-sm-12 col-md-2 p-1"> 
+                    <img src="img/client5.png" />
+                </article>
+                <article class="col-sm-12 col-md-2 p-1"> 
+                    <img src="img/client6.png" />
+                </article>
+            </div>   
+        </section> <!-- FIN client-->
+    
+        <section class="container-fluid">
+            <div class="container mt-5 mb-5 text_content"> <!-- BLOG -->
+                <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                        <h2>Our latest news</h2>
+                        <p>Lorem ipsum dolor sit, 
+                            amet consectetur adipisicing elit. Nam aliquam, quam, earum, ullam minus magnam dolores libero placeat facere doloribus dicta ipsum debitis. 
+                            Iusto iste dicta suscipit quaerat corrupti eius.
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
 
+        <section class="container-fluid grey_background">
+            <div class="row blog_home justify-content-center mb-5">
+                <article class="col-sm-12 col-md-3 bg-white p-0 m-5">
+                    <img src="img/post1.jpg" />
+                    <h2 class="pl-2 pt-3">Article 1</h2>
+                    <div class="pl-2">
+                        <i class="far fa-user p-1"></i> Organic <i class="far fa-calendar-alt p-1"></i> 1 janvier 2018  <i class="fas fa-comments p-1"></i>
+                    </div>
+                    <p class="pl-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sapiente expedita tempora asperiores. 
+                            Natus magnam repellat nobis, possimus corporis voluptates.
+                    </p>
+                    
+                </article>
+                <article class="col-sm-12 col-md-3 bg-white p-0 m-5">
+                    <img src="img/post2.jpg" />
+                    <h2 class="pl-2 pt-3">Article 2</h2>
+                    <div class="pl-2">
+                        <i class="far fa-user p-1"></i> Organic <i class="far fa-calendar-alt p-1"></i> 1 janvier 2018  <i class="fas fa-comments p-1"></i>
+                    </div>
+                    <p class="pl-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sapiente expedita tempora asperiores. 
+                            Natus magnam repellat nobis, possimus corporis voluptates.
+                    </p>
+                    
+                </article>
 
-    
+                <article class="col-sm-12 col-md-3 bg-white p-0 m-5">
+                    <img src="img/post3.jpg" />
+                    <h2 class="pl-2 pt-3">Article 3</h2>
+                    <div class="pl-2">
+                        <i class="far fa-user p-1"></i> Organic <i class="far fa-calendar-alt p-1"></i> 1 janvier 2018  <i class="fas fa-comments p-1"></i>
+                    </div>
+                    <p class="pl-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sapiente expedita tempora asperiores. 
+                            Natus magnam repellat nobis, possimus corporis voluptates.
+                    </p>
+                    
+                </article>
+            </div>
+        </section>
 
     </main>
 

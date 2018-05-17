@@ -28,10 +28,6 @@ header{
     color:#fff;  
 } 
 
-.bg {
-    background-color: none!important;
-}
-
 
 .logo{
     font-weight: bold;
@@ -45,11 +41,7 @@ header{
 
 .text_intro{
     color:#fff;
-    text-align: center;
-    width: 40%;
     position: relative;
-    z-index: 4; 
-    margin: 0 auto;
     vertical-align: middle;
     top: 30vh;
     line-height: 35px;
@@ -90,11 +82,11 @@ header{
     color:#6d737d; 
 }
 
-.box_info h2{
+.box_info h3{
     color:#222; 
 }
 
-.fas{
+.icon{
     font-size: 30px;
     background:#fff;
     padding: 20px;
@@ -123,7 +115,7 @@ header{
 	font-size: 20px;
     font-weight: 900;
     position: relative;
-    top: 15vh;
+    top: 20vh;
 }
 
 
@@ -138,42 +130,59 @@ header{
 
 
 /************* PORTFOLIO ******************/
-.filter_portfolio{
-    position: relative;
-    text-align: center;
-} 
-.filter_portfolio ul li a {
-    padding: 15px 20px;
-    border: 2px solid #222; 
-    border-radius: 4px;
-    text-decoration: none;
-    color:#6d737d; 
-}
 
 
-.clearfix{
-    clear: both;
-} 
-
-
-/*************** PRICING ***************/
+/*************** PRICING / TARIF ***************/
 
 .sold_price article{
     text-align: center;
     background: #f4f4f4;
+    padding: 0;
+    margin: 0 auto;
 } 
 
-.sold_price button{
-    text-align: center;
-    background:#222 ;
-    margin-bottom: 7%;
-    color:#fff;
-    border: 0;
-    padding: 15px 30px; 
-    text-transform: uppercase;
-} 
+
 .title_price{
     background:#28bbea;
     color:#fff;
     text-transform: uppercase;
 } 
+
+.pricing{
+    background:#28bbea;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    color:#fff; 
+    display: inline-block;
+    vertical-align: middle;
+} 
+
+.pricing h3{
+    font-size: 56px;
+    vertical-align: middle;
+} 
+
+
+/*************** LOGO CLIENTS ***************/
+
+.client_list{
+    background: #f4f4f4;
+} 
+
+.client_list img{
+    width: 50%;
+} 
+
+
+/*************** BLOG *****************/
+
+
+.grey_background{
+    background:#eee; 
+} 
+
+.blog_home img {
+    width: 100%;
+} 
+
