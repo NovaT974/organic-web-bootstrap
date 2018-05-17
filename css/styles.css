@@ -3,29 +3,35 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+    text-align: center;
 }  
 
 a{
     text-decoration: none;
 }  
 
+img{
+    width: 100%;
+} 
+
 /* ====================================================
     HEADER
 =======================================================*/
 header{
-    /*background: url('../img/home.jpg') no-repeat;*/
+
     background:linear-gradient(
         rgba(0, 0, 0, 0.75), 
         rgba(0, 0, 0, 0.75)
         ), url('../img/home.jpg') no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 600px;
     color:#fff;  
 } 
 
 .bg {
     background-color: none!important;
 }
+
 
 .logo{
     font-weight: bold;
@@ -34,4 +40,140 @@ header{
 
 .logo span{
     color:#28bbea; 
+} 
+
+
+.text_intro{
+    color:#fff;
+    text-align: center;
+    width: 40%;
+    position: relative;
+    z-index: 4; 
+    margin: 0 auto;
+    vertical-align: middle;
+    top: 30vh;
+    line-height: 35px;
+} 
+
+.text_intro h2{
+    font-size: 44px;
+    text-align: center;
+} 
+
+
+.call_action{ 
+    text-transform: uppercase; 
+} 
+
+
+/* ===================================================
+        MAIN CONTENU 
+======================================================*/
+
+ /******* About *******/
+.text_content{
+    line-height: 30px;
+    text-align: center;
+} 
+
+.text_content h2{
+    font-size: 38px;
+    color:#222; 
+} 
+
+/************* SERVICE ***********/
+
+.box_info{
+    border: 1px solid #656565; 
+    text-align: center;
+    line-height: 40px;
+    color:#6d737d; 
+}
+
+.box_info h2{
+    color:#222; 
+}
+
+.fas{
+    font-size: 30px;
+    background:#fff;
+    padding: 20px;
+    position: relative;
+    top: -30px; 
+    color:#28bbea;
+} 
+
+
+/************ COMPTEUR ************/
+
+.info_counter {
+	background:linear-gradient(
+        rgba(0, 0, 0, 0.75), 
+        rgba(0, 0, 0, 0.75)
+        ), url('../img/home.jpg') no-repeat;
+	background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.info_counter .counter {
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+    font-weight: 900;
+    position: relative;
+    top: 15vh;
+}
+
+
+.info_counter .counter h3{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.info_counter .counter span{
+	font-size: 17px;
+}
+
+
+/************* PORTFOLIO ******************/
+.filter_portfolio{
+    position: relative;
+    text-align: center;
+} 
+.filter_portfolio ul li a {
+    padding: 15px 20px;
+    border: 2px solid #222; 
+    border-radius: 4px;
+    text-decoration: none;
+    color:#6d737d; 
+}
+
+
+.clearfix{
+    clear: both;
+} 
+
+
+/*************** PRICING ***************/
+
+.sold_price article{
+    text-align: center;
+    background: #f4f4f4;
+} 
+
+.sold_price button{
+    text-align: center;
+    background:#222 ;
+    margin-bottom: 7%;
+    color:#fff;
+    border: 0;
+    padding: 15px 30px; 
+    text-transform: uppercase;
+} 
+.title_price{
+    background:#28bbea;
+    color:#fff;
+    text-transform: uppercase;
 } 
