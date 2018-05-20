@@ -13,33 +13,33 @@
     <title>Organic</title>
 </head>
 <body>
-    <header> <!-- début header -->
+    <header role="banner"> <!-- début header -->
         <div class="container-fluid"> <!-- MENU PRINCIPAL -->
             <div class="container">
                 <div class="row">
-                    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-transparent">
-                        <a class="navbar-brand" href="#"><h1 class="logo">Orga<span>nic.</span></h1></a>
+                    <nav role="navigation" class="navbar fixed-top navbar-expand-lg navbar-dark bg-transparent text-white">
+                        <a class="navbar-brand ml-3" href="#"><h1 class="logo">Orga<span>nic.</span></h1></a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                           Menu  <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                            <ul class="navbar-nav">
-								<li class="nav-item active">
+                            <ul class="navbar-nav mr-3">
+								<li class="nav-item active p-2">
 									<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 								</li>
-								<li class="nav-item">
+								<li class="nav-item p-2">
 									<a class="nav-link" href="#">About</a>
 								</li>
-								<li class="nav-item">
+								<li class="nav-item p-2">
 									<a class="nav-link" href="#">Portfolio</a>
 								</li>
-								<li class="nav-item">
+								<li class="nav-item p-2">
 									<a class="nav-link disabled" href="#">Pricing</a>
 								</li>
-								<li class="nav-item">
+								<li class="nav-item p-2">
 									<a class="nav-link disabled" href="#">Blogs</a>
 								</li>    
-								<li class="nav-item">
+								<li class="nav-item p-2">
 									<a class="nav-link disabled" href="#">Contact</a>
 								</li>
                             </ul>
@@ -55,7 +55,7 @@
                             amet consectetur adipisicing elit. Nam aliquam, quam, earum, ullam minus magnam dolores libero placeat facere doloribus dicta ipsum debitis. 
                             Iusto iste dicta suscipit quaerat corrupti eius.
                         </p> 
-                        <button type="button" class="btn btn-secondary call-action text-center">
+                        <button type="button" class="btn btn-secondary call-action text-center text-uppercase">
                             Read More
                         </button>
                     </div>  
@@ -66,7 +66,7 @@
         
     </header> <!-- fin header -->
 
-    <main>
+    <main role="main">
         <section class="container-fluid">
             <div class="container mt-5 mb-5 text_content"> <!--about our service-->
                 <div class="row">
@@ -193,22 +193,22 @@
         <section class="container filter_portfolio">
             <div class="row p-2 mt-3 mb-3 text_content justify-content-center">
                 <ul class="nav">
-                    <li class="nav-item col-md-3">
+                    <li class="nav-item p-2">
                         <button type="button" class="btn btn-dark">
                             All
                         </button>    
                     </li>
-                    <li class="nav-item col-md-3">
+                    <li class="nav-item p-2">
                         <button type="button" class="btn btn-outline-dark">
                            Web design
                         </button>    
                     </li>
-                    <li class="nav-item col-md-3">
+                    <li class="nav-item p-2">
                         <button type="button" class="btn btn-outline-dark">
                             Branding
                         </button>    
                     </li>
-                    <li class="nav-item col-md-3">
+                    <li class="nav-item p-2">
                         <button type="button" class="btn btn-outline-dark">   
                             Graphic
                         </button>    
@@ -388,7 +388,7 @@
 		</section>
 		
 		<!-- CONTACT -->
-		<div class="container-fluid">
+		<div class="container-fluid mb-5 mt-5">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-sm-12">
@@ -434,7 +434,35 @@
 
     </main>
 	
-	<footer>
+	<footer role="contentinfo" class="container-fluid bg-dark p-4 text-white">
+		<div class="container mt-5 mb-5 text_content"> <!-- BLOG -->
+			<div class="row">
+				<div class="col-sm-12 col-md-12">
+					<h2 class="text-white">Organic.</h2>
+					<p class="copyright">
+					Copyright &copy 2018 Organic, All rights reserved
+					</p>
+					<p class="copyright">
+					Created by Anycsm
+					</p>
+					<ul class="nav justify-content-center">
+						<li class="nav-item p-2">
+							<i class="fab fa-facebook-square"></i>
+						</li>
+						<li class="nav-item p-2">
+							<i class="fab fa-twitter-square"></i>
+						</li>
+						<li class="nav-item p-2">
+							<i class="fab fa-google-plus-square"></i>
+						</li>
+						<li class="nav-item p-2">
+							<i class="fab fa-linkedin"></i>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
 	</footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

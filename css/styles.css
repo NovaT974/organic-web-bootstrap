@@ -40,7 +40,6 @@ header{
 
 
 .text_intro{
-    color:#fff;
     position: relative;
     vertical-align: middle;
     top: 30vh;
@@ -53,9 +52,6 @@ header{
 } 
 
 
-.call_action{ 
-    text-transform: uppercase; 
-} 
 
 
 /* ===================================================
@@ -185,3 +181,12 @@ header{
 .blog_home img {
     width: 100%;
 } 
+
+
+/*========================================
+			FOOTER
+===========================================*/		
+
+.fab {
+	font-size: 32px;
+}	
