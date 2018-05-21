@@ -10,15 +10,11 @@ a{
     text-decoration: none;
 }  
 
-img{
-    width: 100%;
-} 
 
 /* ====================================================
     HEADER
 =======================================================*/
 header{
-
     background:linear-gradient(
         rgba(0, 0, 0, 0.75), 
         rgba(0, 0, 0, 0.75)
@@ -52,8 +48,6 @@ header{
 } 
 
 
-
-
 /* ===================================================
         MAIN CONTENU 
 ======================================================*/
@@ -73,7 +67,6 @@ header{
 
 .box_info{
     border: 1px solid #656565; 
-    text-align: center;
     line-height: 40px;
     color:#6d737d; 
 }
@@ -111,22 +104,29 @@ header{
 	font-size: 20px;
     font-weight: 900;
     position: relative;
-    top: 20vh;
+    top: 22vh;
 }
 
 
 .info_counter .counter h3{
     font-size: 40px;
-    font-weight: 900;
+    font-weight: 700;
 }
 
-.info_counter .counter span{
-	font-size: 17px;
+.info_counter .counter p{
+	font-size: 16px;
+	font-weight: 400;
 }
 
 
 /************* PORTFOLIO ******************/
 
+/***************** SLIDE *******************/
+
+.carousel-item img {
+	width: 150px;
+	border-radius: 100%;
+}
 
 /*************** PRICING / TARIF ***************/
 
@@ -137,25 +137,16 @@ header{
     margin: 0 auto;
 } 
 
-
-.title_price{
-    background:#28bbea;
-    color:#fff;
-    text-transform: uppercase;
-} 
-
 .pricing{
-    background:#28bbea;
     border-radius: 100%;
     width: 200px;
     height: 200px;
-    color:#fff; 
     display: inline-block;
     vertical-align: middle;
 } 
 
 .pricing h3{
-    font-size: 56px;
+    font-size: 54px;
     vertical-align: middle;
 } 
 
@@ -172,15 +163,6 @@ header{
 
 
 /*************** BLOG *****************/
-
-
-.grey_background{
-    background:#eee; 
-} 
-
-.blog_home img {
-    width: 100%;
-} 
 
 
 /*========================================
